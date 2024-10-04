@@ -3,9 +3,9 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
+console.log('main.jsx');
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <h1>Samuel Silva</h1>
-    {/* <App /> */}
+    <App />
   </StrictMode>,
 )
