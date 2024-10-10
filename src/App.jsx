@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { Coleguinha } from './components/Coleguinha.jsx'
+import { Coleguinha } from './components/coleguinha/Coleguinha.jsx'
 
 function App() {
   // const [nome, setNome] = useState('Angelo ')
